@@ -19,6 +19,6 @@ public class Rectangulo {
         perimetro = 2 * (base + altura);
         System.out.println("Area del rectángulo es: " + area + " cm2");
         System.out.println("Perímetro del rectángulo es: " + perimetro + " cm2");
-
+        leer.close();
     }
 }
